@@ -1,0 +1,134 @@
+library paths:
+... C:/Users/hperr/Source/repos/DesktopDeployR/app/library
+... C:/Users/hperr/Source/repos/DesktopDeployR/dist/R-Portable/App/R-Portable/library
+working path:
+... C:/Users/hperr/Source/repos/DesktopDeployR
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/jsonlite_1.6.zip'
+Content type 'application/zip' length 1160756 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+package 'jsonlite' successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\hperr\AppData\Local\Temp\Rtmp4QLq9Q\downloaded_packages
+ensuring packages: jsonlite, shiny
+also installing the dependencies 'Rcpp', 'BH', 'magrittr', 'httpuv', 'mime', 'xtable', 'digest', 'htmltools', 'R6', 'sourcetools', 'later', 'promises', 'crayon', 'rlang'
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/Rcpp_1.0.1.zip'
+Content type 'application/zip' length 4509616 bytes (4.3 MB)
+==================================================
+downloaded 4.3 MB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/BH_1.69.0-1.zip'
+Content type 'application/zip' length 19008161 bytes (18.1 MB)
+==================================================
+downloaded 18.1 MB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/magrittr_1.5.zip'
+Content type 'application/zip' length 155772 bytes (152 KB)
+==================================================
+downloaded 152 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/httpuv_1.5.0.zip'
+Content type 'application/zip' length 1484549 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/mime_0.6.zip'
+Content type 'application/zip' length 47809 bytes (46 KB)
+==================================================
+downloaded 46 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/xtable_1.8-3.zip'
+Content type 'application/zip' length 755890 bytes (738 KB)
+==================================================
+downloaded 738 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/digest_0.6.18.zip'
+Content type 'application/zip' length 194589 bytes (190 KB)
+==================================================
+downloaded 190 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/htmltools_0.3.6.zip'
+Content type 'application/zip' length 661126 bytes (645 KB)
+==================================================
+downloaded 645 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/R6_2.4.0.zip'
+Content type 'application/zip' length 58354 bytes (56 KB)
+==================================================
+downloaded 56 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/sourcetools_0.1.7.zip'
+Content type 'application/zip' length 530455 bytes (518 KB)
+==================================================
+downloaded 518 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/later_0.8.0.zip'
+Content type 'application/zip' length 611005 bytes (596 KB)
+==================================================
+downloaded 596 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/promises_1.0.1.zip'
+Content type 'application/zip' length 695131 bytes (678 KB)
+==================================================
+downloaded 678 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/crayon_1.3.4.zip'
+Content type 'application/zip' length 749384 bytes (731 KB)
+==================================================
+downloaded 731 KB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/rlang_0.3.2.zip'
+Content type 'application/zip' length 1082360 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'http://cran.rstudio.com/bin/windows/contrib/3.5/shiny_1.2.0.zip'
+Content type 'application/zip' length 4567393 bytes (4.4 MB)
+==================================================
+downloaded 4.4 MB
+
+package 'Rcpp' successfully unpacked and MD5 sums checked
+package 'BH' successfully unpacked and MD5 sums checked
+package 'magrittr' successfully unpacked and MD5 sums checked
+package 'httpuv' successfully unpacked and MD5 sums checked
+package 'mime' successfully unpacked and MD5 sums checked
+package 'xtable' successfully unpacked and MD5 sums checked
+package 'digest' successfully unpacked and MD5 sums checked
+package 'htmltools' successfully unpacked and MD5 sums checked
+package 'R6' successfully unpacked and MD5 sums checked
+package 'sourcetools' successfully unpacked and MD5 sums checked
+package 'later' successfully unpacked and MD5 sums checked
+package 'promises' successfully unpacked and MD5 sums checked
+package 'crayon' successfully unpacked and MD5 sums checked
+package 'rlang' successfully unpacked and MD5 sums checked
+package 'shiny' successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\hperr\AppData\Local\Temp\Rtmp4QLq9Q\downloaded_packages
+
+Attaching package: 'shiny'
+
+The following object is masked from 'package:jsonlite':
+
+    validate
+
+
+Listening on http://127.0.0.1:7821
+Warning: Error in if: missing value where TRUE/FALSE needed
+  106: head.data.frame
+  104: renderTable [C:\Users\hperr\Source\repos\DesktopDeployR\app\shiny\/server.R#29]
+  103: func
+   90: origRenderFunc
+   89: output$dataView
+    9: shiny::runApp
+Warning: Error in if: missing value where TRUE/FALSE needed
+  106: head.data.frame
+  104: renderTable [C:\Users\hperr\Source\repos\DesktopDeployR\app\shiny\/server.R#29]
+  103: func
+   90: origRenderFunc
+   89: output$dataView
+    9: shiny::runApp
+application terminated normally
